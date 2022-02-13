@@ -1,0 +1,7 @@
+#docker build . -t rdsnb  -f Dockerfile.RDSNB
+#docker run -v /mnt/five_tera/git_repos/CA-Hydrology-W210-SP2022:/home/jovyan/work -p 8887:8888 rdsnb
+FROM jupyter/datascience-notebook:r-4.1.2
+RUN cd /root/ && wget http://ftp.gnu.org/gnu/parallel/parallel-latest.tar.bz2 && tar -xvf parallel-latest.tar.bz2 && cd `ls -1t|grep -Pi 'para'|head -1` && ./configure && make && make install
+RUN Rscript -e 'install.packages("tictoc", repos="https://cloud.r-project.org")'
+RUN Rscript -e 'install.packages("forecast", repos="https://cloud.r-project.org")'
+RUN Rscript -e 'install.packages("doParallel", repos="https://cloud.r-project.org")'
