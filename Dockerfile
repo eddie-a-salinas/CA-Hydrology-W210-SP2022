@@ -18,7 +18,7 @@ RUN apt install graphviz -y
 RUN pip3 install pandas
 RUN pip3 install sklearn
 RUN pip3 install torch
-
+RUN pip3 install statsmodels
 
 
 RUN jupyter nbextension enable --py widgetsnbextension
