@@ -65,7 +65,7 @@ megaTrain=function(ts_file) {
         tsd=getTSDataFromFile(ts_file,num_test=num_test)
         arima_fit=trainAutoArima(tsd)
         arima_fits=append(arima_fits,arima_fit)
-        arima_forecast=forecast(arima_fit,h=1)
+        arima_forecast=forecast(arima_fit$fit,h=1)
         arima_forecast_df=data.frame(arima_forecast)
         if(is.numeric(arima_preds_big_df)) {
             #if first preds, init
