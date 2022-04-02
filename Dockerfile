@@ -19,6 +19,14 @@ RUN pip3 install pandas
 RUN pip3 install sklearn
 RUN pip3 install torch
 RUN pip3 install statsmodels
+RUN pip3 install seaborn
+
+#for geopandas and related plotting
+RUN apt-get install -y libproj-dev proj-data proj-bin  
+RUN apt-get install -y libgeos-dev 
+RUN pip3 install geopandas
+RUN pip3 install cartopy==0.19.0.post1
+RUN pip3 install geoplot
 
 
 RUN jupyter nbextension enable --py widgetsnbextension
