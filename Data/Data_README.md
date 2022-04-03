@@ -1,12 +1,12 @@
 ## About all_data.pkl
 
-The primary data source in this analysis, all_data.pkl, contains hydrologic measurements from the 
+The primary data source file in this analysis, all_data.pkl, contains hydrologic measurements from the 
 NASA Global Land Data Assimilation System (GLDAS) and the Gravity Recovery and Climate Experiment - Terrestrial Water Storage (GRACE-TWS)
 models (both can be accessed via GESDISC: https://disc.gsfc.nasa.gov/datasets?keywords=GRACE), along with snowpack imagery from the 
 Landsat-era Sierra Nevada Snow Reanalysis.  
   
 
-**Definitions:**
+**Dictionary:**
 | Variable Name  |  Data Type | Dimensions  |  Definition |
 |---|---|---|---|
 | Year  | integer  | 1  |  Year of measurement |
@@ -41,7 +41,7 @@ _rzexc information:_ Girotto et al., 2016 https://agupubs.onlinelibrary.wiley.co
 _prmc information:_ Felsberg et al., 2021 https://journals.ametsoc.org/view/journals/hydr/22/5/JHM-D-20-0228.1.xml	
 
 ## Additional Data Sources:
-Research was also done comparing the GLDAS model data with well measurements from the California Natural Resources Agency, available at https://data.cnra.ca.gov/dataset/periodic-groundwater-level-measurements. The main focus in this data was the **GSE_GWE** measurement, defined as the "Depth to groundwater elevation in feet below ground surface."  
+Research was also done comparing the GLDAS model data with well measurements from the California Natural Resources Agency, available at https://data.cnra.ca.gov/dataset/periodic-groundwater-level-measurements. The main focus in this data was the **GSE_GWE** measurement, defined as the "depth to groundwater elevation in feet below ground surface."  
   
 
 
