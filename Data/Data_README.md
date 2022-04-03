@@ -40,5 +40,9 @@ _catdef information:_ Ducharne et al., 2000 https://agupubs.onlinelibrary.wiley.
 _rzexc information:_ Girotto et al., 2016 https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015WR018417  
 _prmc information:_ Felsberg et al., 2021 https://journals.ametsoc.org/view/journals/hydr/22/5/JHM-D-20-0228.1.xml	
 
+## Additional Data Sources:
+Research was also done comparing the GLDAS model data with well measurements from the California Natural Resources Agency, available at https://data.cnra.ca.gov/dataset/periodic-groundwater-level-measurements. The main focus in this data was the **GSE_GWE** measurement, defined as the "Depth to groundwater elevation in feet below ground surface."  
+  
+
 
 
