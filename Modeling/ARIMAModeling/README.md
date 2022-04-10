@@ -20,6 +20,8 @@ This is a 3-step process.  The *ARIMA_setup* notebook is used to load and stage 
 
 This is a 2-step process.  The  *CNRA_ARIMA_Setup* notebooks briefly loads and reviews the CNRA data to be used for ARIMA.  It plots and isolates 4 wells to be modeled and write their data to files in a directory.  The notebooks which performs the modeling is the *CNRA_work_R* notebook which should be loaded from the R-based docker container.  
 
+*Note* that the CNRA data files (measurments.csv and stations.csv) can be downloaded here : https://data.cnra.ca.gov/dataset/periodic-groundwater-level-measurements
+
 **Summary Table for ARIMA Analysis of CNRA Data**
 
 | Section      | Notebook/Note |
