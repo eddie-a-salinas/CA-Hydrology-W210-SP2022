@@ -12,7 +12,7 @@ Landsat-era Sierra Nevada Snow Reanalysis.
 | Year  | integer  | 1  |  Year of measurement |
 | Month  | integer  | 1  |  Month of measurement |
 | SCA  | integer  |  1 | Star Camera Assembly (SCA) Precisely determines the two satellite's orientation by tracking them relative to the position of the stars|
-|  Landsat_Image | image (PIL)   |  (480,480) | Raw sattelite imagery of CA/Sierra Nevada Mountains |
+|  Landsat_Image | image (PIL)   |  (480,480) | Raw satellite imagery of CA/Sierra Nevada Mountains |
 | BW_SCA_Image  | image (PIL)  |  (570,660) | Black/White snowpack reanalysis image from LandSat model  |
 |  Color_SCA_Image |  image(PIL) | (570,660)  |  Color snowpack reanalysis image from LandSat model |
 |  catdef | ndarray  | (33,37)  | Catchment deficit: the average depth of water that would need to be added in order to bring the catchment to saturation, related to groundwater table depth  |
