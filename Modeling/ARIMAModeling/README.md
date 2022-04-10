@@ -3,7 +3,7 @@
 
 # ARIMA Modeling
 
-Note that the python-based analysis can use the docker image created from [Dockerfile](Dockerfile) and the that R-based analyses should use the docker image created from [Dockerfile.RDSNB](Dockerfile.RDSNB).
+Note that the python-based analysis can use the docker image created from [Dockerfile](Dockerfile) and the that R-based analyses should use the docker image created from [Dockerfile.RDSNB](Dockerfile.RDSNB).  Also note that paths to input files and permissions may need to be tweaked if you try to run these.
 
 ### ARIMA Modeling for the GRACE Data
 
