@@ -5,6 +5,7 @@ NASA Global Land Data Assimilation System (GLDAS) and the Gravity Recovery and C
 models (both can be accessed via GESDISC: https://disc.gsfc.nasa.gov/datasets?keywords=GRACE), along with snowpack imagery from the 
 Landsat-era Sierra Nevada Snow Reanalysis.  
   
+The all_data.pkl file is available on [Google Drive](https://drive.google.com/file/d/1xpTaDnaVf4hp7mhAWx_UsQMJJjx92kn6/view?usp=sharing). Contact eddieasalinas@gmail.com for access. 
 
 **Dictionary:**
 | Variable Name  |  Data Type | Dimensions  |  Definition |
