@@ -47,6 +47,8 @@ Research was also done comparing the GLDAS model data with well measurements fro
 ## Lat/Lon Files:
 "lat.csv" and "lon.csv" provide the latitude and longitude coordinates for the 33X37 measurement arrays shown in other data files
   
+ ## Region Mask:
+ The Region_mask.csv file provides an overlay for the 33X37 arrays that can be used to segment data based on the 10 CA hydrologic regions
 
 
 
