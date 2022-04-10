@@ -7,7 +7,7 @@ Note that the python-based analysis can use the docker image created from [Docke
 
 ### ARIMA Modeling for the GRACE Data
 
-This is a 3-step process.  The *ARIMA_setup* notebook is used to load and stage the data.  Next ARIMA is run from the command line with an R script.  To see details on how to run it via the command line view the last few cells of the setup notebook.  Finally, to view results from the ARIMA analyses can carried out in the *ARIMA_explore_6mos_python* notebook.
+This is a 3-step process.  The *ARIMA_setup* notebook is used to load and stage the data.  Next ARIMA is run from the command line with an R script.  To see details on how to run it via the command line view the last few cells of the setup notebook.  Finally, to view results from the ARIMA analyses use  the *ARIMA_explore_6mos_python* notebook.
 
 **Summary Table for ARIMA Analysis of GRACE Data**
 
