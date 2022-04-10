@@ -44,6 +44,9 @@ _prmc information:_ Felsberg et al., 2021 https://journals.ametsoc.org/view/jour
 ## Additional Data Sources:
 Research was also done comparing the GLDAS model data with well measurements from the California Natural Resources Agency, available at https://data.cnra.ca.gov/dataset/periodic-groundwater-level-measurements. The main focus in this data was the **GSE_GWE** measurement, defined as the "depth to groundwater elevation in feet below ground surface."  
   
+## Lat/Lon Files:
+"lat.csv" and "lon.csv" provide the latitude and longitude coordinates for the 33X37 measurement arrays shown in other data files
+  
 
 
 
