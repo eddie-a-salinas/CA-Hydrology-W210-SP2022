@@ -11,9 +11,9 @@ It saves the models into a folder called CLSTM_temp, which are then reloaded to 
 8 models often exhausts all available memory, so each model is saved and then deleted from the runtime until all other models have been saved.
 
 The models are trained using the best features for each region as determined by our testing of 44 permutations. Those notebooks are in this repo 
-under [CA-Hydrology-W210-SP2022/Visualizations and Analysis/ConvLSTM_scratch_notebooks](CA-Hydrology-W210-SP2022/Visualizations and Analysis/ConvLSTM_scratch_notebooks),
+under CA-Hydrology-W210-SP2022/Visualizations and Analysis/ConvLSTM_scratch_notebooks,
 but likely require considerable reconfiguration to run.
 
 The final output predictions are saved in
-[CA-Hydrology-W210-SP2022/Modeling/Ensemble Modeling/convlstm_predictions.pkl](CA-Hydrology-W210-SP2022/Modeling/Ensemble Modeling/convlstm_predictions.pkl),
+CA-Hydrology-W210-SP2022/Modeling/Ensemble Modeling/convlstm_predictions.pkl,
 and should be ready for use by the ensembling notebooks.
